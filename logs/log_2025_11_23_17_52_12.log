@@ -1,0 +1,2 @@
+2025-11-23 17:52:12 - ERROR - Attempted to divide by zero.
+2025-11-23 17:52:12 - ERROR - Error occurred in script: [c:\Users\user\Desktop\ML Ops Project\testing.py] at line number: [9] with message: [Division by zero is not allowed.]

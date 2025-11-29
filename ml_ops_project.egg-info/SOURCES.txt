@@ -1,0 +1,15 @@
+README.txt
+setup.py
+config/__init__.py
+config/path_config.py
+ml_ops_project.egg-info/PKG-INFO
+ml_ops_project.egg-info/SOURCES.txt
+ml_ops_project.egg-info/dependency_links.txt
+ml_ops_project.egg-info/requires.txt
+ml_ops_project.egg-info/top_level.txt
+src/__init__.py
+src/customexception.py
+src/data_injestion.py
+src/logger.py
+utils/__init__.py
+utils/common_functions.py
