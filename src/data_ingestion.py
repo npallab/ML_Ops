@@ -32,7 +32,7 @@ class DataIngestion:
     def download_data_from_gcs(self):
         try:
             # Explicit path to your JSON key
-            key_path = r'C:\Users\user\Desktop\strategic-reef-479708-u4-ee7574828564.json'
+            key_path = r'PATH_TO_YOUR_SERVICE_ACCOUNT_JSON.json'
             
             if not os.path.exists(key_path):
                 raise FileNotFoundError(f"JSON Key not found at {key_path}")
