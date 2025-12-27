@@ -1,0 +1,8 @@
+2025-12-27 17:25:02 - INFO - YAML file config/config.yaml loaded successfully
+2025-12-27 17:25:02 - INFO - Directory verified/created at: artifacts/raw_data
+2025-12-27 17:25:02 - INFO - Authenticating GCS using key: C:\Users\user\Desktop\ML Ops Project\strategic-reef-479708-u4-ee7574828564.json
+2025-12-27 17:25:02 - INFO - Downloading Hotel_Reservations.csv from bucket paul_mlops_project1...
+2025-12-27 17:25:06 - INFO - File downloaded successfully to: artifacts/raw_data\RAW.csv
+2025-12-27 17:25:06 - INFO - Reading raw data for splitting...
+2025-12-27 17:25:06 - INFO - Split complete. Train: 7255 rows, Test: 29020 rows.
+2025-12-27 17:25:06 - INFO - Data Ingestion Pipeline finished successfully.

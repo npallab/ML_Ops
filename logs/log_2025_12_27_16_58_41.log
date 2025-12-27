@@ -1,0 +1,5 @@
+2025-12-27 16:58:43 - INFO - YAML file config/config.yaml loaded successfully
+2025-12-27 16:58:43 - INFO - Raw data directory created at: artifatcts/raw_data
+2025-12-27 16:58:56 - ERROR - Error downloading data from GCS: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-12-27 16:58:56 - ERROR - Data ingestion failed: Error occurred in script: [C:\Users\user\Desktop\ML Ops Project\src\data_ingestion.py] at line number: [22] with message: [Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.]
+2025-12-27 16:58:56 - INFO - Data ingestion process completed.
