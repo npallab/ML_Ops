@@ -20,3 +20,14 @@ def read_yaml_file(file_path):
         logger.error(f"Error reading YAML file: {e}")
         raise CustomException(e)
     
+
+def load_data(file_path):
+    try:
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f"The specified data file does not exist")
+        data = pd.read_csv(file_path)
+        logger.info(f"Data loaded successfully from {file_path}")
+        return data
+    except Exception as e:
+        logger.error(f"Error loading data: {e}")
+        raise CustomException(e)

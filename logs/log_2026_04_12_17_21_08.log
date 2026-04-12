@@ -1,0 +1,6 @@
+2026-04-12 17:21:09 - INFO - YAML file config/config.yaml loaded successfully
+2026-04-12 17:21:09 - INFO - Data loaded successfully from artifacts/raw_data\TRAIN.csv
+2026-04-12 17:21:09 - INFO - Data loaded successfully from artifacts/raw_data\TEST.csv
+2026-04-12 17:21:09 - INFO - Starting data preprocessing...
+2026-04-12 17:21:09 - ERROR - Error during data preprocessing: 'data_processing'
+2026-04-12 17:21:09 - ERROR - Error during data processing: Error occurred in script: [C:\Users\user\Desktop\ML Ops Project\src\data_processing.py] at line number: [38] with message: ['data_processing']

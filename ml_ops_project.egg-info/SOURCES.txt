@@ -9,7 +9,9 @@ ml_ops_project.egg-info/requires.txt
 ml_ops_project.egg-info/top_level.txt
 src/__init__.py
 src/customexception.py
-src/data_injestion.py
+src/data_ingestion.py
+src/data_processing.py
+src/gcs_debug.py
 src/logger.py
 utils/__init__.py
 utils/common_functions.py

@@ -1,0 +1,6 @@
+2026-04-12 17:19:38 - INFO - YAML file config/config.yaml loaded successfully
+2026-04-12 17:19:38 - INFO - Data loaded successfully from artifacts/raw_data\TRAIN.csv
+2026-04-12 17:19:38 - INFO - Data loaded successfully from artifacts/raw_data\TEST.csv
+2026-04-12 17:19:38 - INFO - Starting data preprocessing...
+2026-04-12 17:19:38 - ERROR - Error during data preprocessing: 'data_processing'
+2026-04-12 17:19:38 - ERROR - Pipeline failed: CustomException.__init__() missing 1 required positional argument: 'error_detail'
