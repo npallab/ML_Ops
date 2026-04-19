@@ -1,0 +1,9 @@
+2026-04-19 16:21:03 - INFO - Loading data from artifacts/processed_data\processed_train.csv
+2026-04-19 16:21:03 - INFO - Data loaded successfully from artifacts/processed_data\processed_train.csv
+2026-04-19 16:21:03 - INFO - Data loaded successfully from artifacts/processed_data\processed_test.csv
+2026-04-19 16:21:03 - INFO - Data loaded and split successfully.
+2026-04-19 16:21:03 - INFO - Starting LightGBM model training...
+2026-04-19 16:26:56 - INFO - Best parameters found: {'boosting_type': 'dart', 'colsample_bytree': np.float64(0.731267358066574), 'learning_rate': np.float64(0.23424128144012696), 'max_depth': 13, 'min_child_samples': 65, 'n_estimators': 470, 'num_leaves': 26, 'reg_alpha': np.float64(0.6871655054033311), 'reg_lambda': np.float64(0.8444406726336288), 'subsample': np.float64(0.8748081160042938)}
+2026-04-19 16:26:56 - INFO - Evaluating model performance...
+2026-04-19 16:26:56 - INFO - Evaluation metrics: {'accuracy': 0.844758064516129, 'precision': 0.88064681724846, 'recall': 0.9043822075782537, 'f1': 0.8923567086056113, 'roc_auc': 0.9016280937146156}
+2026-04-19 16:26:56 - INFO - Model saved to artifacts\model\lightgbm_model.pkl

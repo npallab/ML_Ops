@@ -1,6 +1,8 @@
 README.txt
 setup.py
 config/__init__.py
+config/model_params.py
+config/model_training.py
 config/path_config.py
 ml_ops_project.egg-info/PKG-INFO
 ml_ops_project.egg-info/SOURCES.txt

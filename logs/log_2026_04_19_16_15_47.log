@@ -1,0 +1,4 @@
+2026-04-19 16:15:47 - INFO - Attempting to load data from: artifacts/processed_data/train.csv
+2026-04-19 16:15:47 - ERROR - Error loading data: The specified data file does not exist
+2026-04-19 16:15:47 - ERROR - Error in load_and_split_data: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2026-04-19 16:15:47 - ERROR - Pipeline failed: CustomException.__init__() missing 1 required positional argument: 'error_detail'

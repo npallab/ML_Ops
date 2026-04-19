@@ -1,0 +1,3 @@
+2026-04-19 16:18:39 - INFO - Attempting to load data from: artifacts/processed_data/train.csv
+2026-04-19 16:18:39 - ERROR - Error in load_and_split_data: [Errno 2] No such file or directory: 'artifacts/processed_data/train.csv'
+2026-04-19 16:18:39 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'artifacts/processed_data/train.csv'
