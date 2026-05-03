@@ -7,5 +7,8 @@ Requires-Dist: numpy
 Requires-Dist: google-cloud-storage
 Requires-Dist: scikit-learn
 Requires-Dist: pyYAML
+Requires-Dist: imbalanced-learn
+Requires-Dist: lightgbm
+Requires-Dist: mlflow
 Dynamic: author
 Dynamic: requires-dist

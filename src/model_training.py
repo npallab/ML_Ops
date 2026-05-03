@@ -103,7 +103,7 @@ class ModelTrainer:
                 metrics = {
                     'accuracy': accuracy,
                     'precision': report[str(pos_label) if str(pos_label) in report else pos_label]['precision'],
-                    'recall': report[str(pos_label) if str(pos_label) in report else pos_label]['recall'],
+                    'recall': report[str(pos_label) if str(pos_labelpath) in report else pos_label]['recall'],
                     'f1_score': report[str(pos_label) if str(pos_label) in report else pos_label]['f1-score'],
                     'roc_auc': roc_auc
                 }

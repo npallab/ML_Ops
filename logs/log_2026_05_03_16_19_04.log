@@ -1,0 +1,33 @@
+2026-05-03 16:19:09 - INFO - YAML file config/config.yaml loaded successfully
+2026-05-03 16:19:09 - INFO - Data loaded successfully from artifacts/raw_data\TRAIN.csv
+2026-05-03 16:19:10 - INFO - Data loaded successfully from artifacts/raw_data\TEST.csv
+2026-05-03 16:19:10 - INFO - Starting data preprocessing...
+2026-05-03 16:19:10 - INFO - Applying label encoding to categorical columns...
+2026-05-03 16:19:10 - INFO - Label Mappings: {'type_of_meal_plan': {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}, 'required_car_parking_space': {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}, 'room_type_reserved': {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 4': np.int64(2), 'Room_Type 5': np.int64(3), 'Room_Type 6': np.int64(4), 'Room_Type 7': np.int64(5)}, 'market_segment_type': {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}, 'repeated_guest': {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}, 'booking_status': {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}}
+2026-05-03 16:19:10 - INFO - Skewness Handling for numerical columns...
+2026-05-03 16:19:10 - INFO - Data preprocessing completed successfully.
+2026-05-03 16:19:10 - INFO - Starting data preprocessing...
+2026-05-03 16:19:10 - INFO - Applying label encoding to categorical columns...
+2026-05-03 16:19:10 - INFO - Label Mappings: {'type_of_meal_plan': {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}, 'required_car_parking_space': {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}, 'room_type_reserved': {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}, 'market_segment_type': {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}, 'repeated_guest': {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}, 'booking_status': {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}}
+2026-05-03 16:19:10 - INFO - Skewness Handling for numerical columns...
+2026-05-03 16:19:10 - INFO - Data preprocessing completed successfully.
+2026-05-03 16:19:10 - INFO - Starting data balancing using SMOTE...
+2026-05-03 16:19:13 - INFO - Data balancing completed successfully.
+2026-05-03 16:19:13 - INFO - Starting feature selection using Random Forest...
+2026-05-03 16:19:14 - INFO - Selected features: ['lead_time', 'no_of_special_requests', 'avg_price_per_room', 'arrival_month', 'arrival_date', 'no_of_week_nights', 'market_segment_type', 'no_of_weekend_nights', 'no_of_adults', 'room_type_reserved']
+2026-05-03 16:19:14 - INFO - Processed data saved successfully at artifacts/processed_data\processed_train.csv
+2026-05-03 16:19:14 - INFO - Processed data saved successfully at artifacts/processed_data\processed_test.csv
+2026-05-03 16:19:14 - INFO - Entire pipeline completed successfully.
+2026-05-03 16:19:14 - INFO - ModelTrainer initialized successfully.
+2026-05-03 16:19:18 - INFO - MLflow Run Started
+2026-05-03 16:19:18 - INFO - Loading training data from artifacts/processed_data\processed_train.csv
+2026-05-03 16:19:18 - INFO - Data loaded successfully from artifacts/processed_data\processed_train.csv
+2026-05-03 16:19:18 - INFO - Loading testing data from artifacts/processed_data\processed_test.csv
+2026-05-03 16:19:18 - INFO - Data loaded successfully from artifacts/processed_data\processed_test.csv
+2026-05-03 16:19:18 - INFO - Data loaded and split successfully.
+2026-05-03 16:19:18 - INFO - Starting LightGBM model training with RandomizedSearchCV...
+2026-05-03 16:25:21 - INFO - Best parameters found: {'boosting_type': 'dart', 'colsample_bytree': np.float64(0.731267358066574), 'learning_rate': np.float64(0.23424128144012696), 'max_depth': 13, 'min_child_samples': 65, 'n_estimators': 470, 'num_leaves': 26, 'reg_alpha': np.float64(0.6871655054033311), 'reg_lambda': np.float64(0.8444406726336288), 'subsample': np.float64(0.8748081160042938)}
+2026-05-03 16:25:21 - INFO - Evaluating model performance...
+2026-05-03 16:25:22 - INFO - Evaluation metrics: {'accuracy': 0.844758064516129, 'precision': 0.88064681724846, 'recall': 0.9043822075782537, 'f1_score': 0.8923567086056113, 'roc_auc': 0.9016280937146156}
+2026-05-03 16:25:22 - INFO - Model saved locally to artifacts\model\lightgbm_model.pkl
+2026-05-03 16:25:22 - INFO - MLflow logging completed.
